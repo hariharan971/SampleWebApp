@@ -1,0 +1,11 @@
+Table1 - Customers
+CustomerId int,Name string,Email string,Address string
+
+Table2 - Products
+ProductId string(Since AlphaNumeric),Name string,Category string,Description string
+
+Table3 - Orders
+OrderId int,DateOfSale DateTime,Region string,ShippingCost decimal,PaymentMethod string,CustomerId int
+
+Table4 - OrderItems
+OrderItemId int,OrderId int,ProductId string,Quantity int,UnitPrice decimal,Discount decimal
